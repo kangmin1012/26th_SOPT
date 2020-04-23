@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="50dp"
+    android:paddingTop="50dp"
+    tools:context=".SignUpActivity">
+
+
+
+    <ImageView
+        android:id="@+id/sign_up_sopt_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sopt_logo"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/sign_up_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+        android:textSize="30dp"
+        android:textColor="#0040FF"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/sign_up_email_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이메일"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/sign_up_password_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        style="@style/custom_margin"
+        />
+    <EditText
+        android:id="@+id/sign_up_password_check_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호 확인"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        style="@style/custom_margin"
+        />
+
+    <EditText
+        android:id="@+id/sign_up_github_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="GitHub 닉네임"
+        android:inputType="text"
+        android:layout_gravity="center"
+        style="@style/custom_margin"
+        />
+
+    <Button
+        android:id="@+id/sign_up_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원가입"
+        style="@style/custom_margin"
+        />
+</LinearLayout>
+
+</ScrollView>
